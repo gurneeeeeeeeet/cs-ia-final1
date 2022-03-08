@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.anotheria.ScorecardTableController">
+    <children>
+        <HBox>
+            <children>
+                <TableView fx:id="firstBattingTeamScorecard" editable="true" layoutX="-1.0" layoutY="-5.0" />
+                <VBox>
+                    <children>
+                        <Label prefHeight="17.0" text="Runs Scored:">
+                        </Label>
+                        <TextField fx:id="totalScore" prefHeight="50.0" prefWidth="200.0">
+                        </TextField>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox layoutX="-4.0" layoutY="404.0" prefHeight="37.0" prefWidth="704.0">
+            <children>
+                <Label fx:id="allExtrasCount" prefHeight="17.0" text="Label">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </Label>
+
+            </children>
+        </HBox>
+
+        <TableView fx:id="firstBowlingTeamScorecard" editable="true" layoutX="-1.0" layoutY="427.0" />
+        <Button fx:id="backtoSlideTwo" layoutX="145.0" layoutY="750.0" mnemonicParsing="false" onAction="#switchToSlideTwo" text="Back" />
+        <Button fx:id="slideFour" layoutX="645.0" layoutY="750.0" mnemonicParsing="false" onAction="#switchToSlideFour" text="Game Result" />
+      <Button fx:id="btnExport" layoutX="525.0" layoutY="750.0" mnemonicParsing="false" onAction="#export" text="EXPORT" />
+    </children>
+</AnchorPane>

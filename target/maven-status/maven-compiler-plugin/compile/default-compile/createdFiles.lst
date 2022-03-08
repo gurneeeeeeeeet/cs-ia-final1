@@ -1,0 +1,15 @@
+com\mycompany\anotheria\ScorecardTableController.class
+com\mycompany\anotheria\App.class
+com\mycompany\anotheria\Inning.class
+com\mycompany\anotheria\InformationRecorderController.class
+com\mycompany\anotheria\BowlingTeamController.class
+com\mycompany\anotheria\GameResult.class
+com\mycompany\anotheria\Teams.class
+com\mycompany\anotheria\BattingTeamController.class
+com\mycompany\anotheria\Bowler.class
+module-info.class
+com\mycompany\anotheria\Player.class
+com\mycompany\anotheria\GameRecorderController.class
+com\mycompany\anotheria\GameResultController.class
+com\mycompany\anotheria\Batsmen.class
+com\mycompany\anotheria\ScorecardTableController$1.class

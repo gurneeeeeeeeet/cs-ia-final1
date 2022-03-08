@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.anotheria.BattingTeamController">
+   <children>
+      <HBox prefHeight="7.0" prefWidth="300.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="465.0" style="-fx-alignment: center;" text="Please Enter the Playing XI for the Home Team" textAlignment="CENTER">
+               <padding>
+                  <Insets left="80.0" top="10.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets left="-50.0" top="-5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="24.0" prefWidth="400.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="84.0" text="Player's Name">
+               <HBox.margin>
+                  <Insets left="160.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label text="Jersey Number">
+               <HBox.margin>
+                  <Insets left="52.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="42.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Captain">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p1">
+                     <HBox.margin>
+                        <Insets left="60.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j1" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="59.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="125.0" text="Wicket-Keeper">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p2">
+                     <HBox.margin>
+                        <Insets left="15.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j2" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="59.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 3">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p3">
+                     <HBox.margin>
+                        <Insets left="58.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j3" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="129.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 4">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p4">
+                     <HBox.margin>
+                        <Insets left="58.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j4" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="164.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 5">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p5">
+                     <HBox.margin>
+                        <Insets left="59.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j5" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="199.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 6">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p6">
+                     <HBox.margin>
+                        <Insets left="58.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j6" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="234.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 7">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p7">
+                     <HBox.margin>
+                        <Insets left="59.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j7" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="269.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 8">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p8">
+                     <HBox.margin>
+                        <Insets left="58.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j8" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="304.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 9">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p9">
+                     <HBox.margin>
+                        <Insets left="58.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j9" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="339.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 10">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p10">
+                     <HBox.margin>
+                        <Insets left="53.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j10" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="374.0" prefHeight="11.0" prefWidth="400.0">
+         <children>
+            <Label text="Player 11">
+               <HBox.margin>
+                  <Insets left="10.0" top="14.0" />
+               </HBox.margin>
+            </Label>
+            <HBox prefHeight="31.0" prefWidth="340.0">
+               <children>
+                  <TextField fx:id="p11">
+                     <HBox.margin>
+                        <Insets left="55.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="j11" prefHeight="25.0" prefWidth="112.0">
+                     <HBox.margin>
+                        <Insets left="9.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="43.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="submit" mnemonicParsing="false" onAction="#submitAndGoBack" text="Submit">
+               <HBox.margin>
+                  <Insets left="338.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

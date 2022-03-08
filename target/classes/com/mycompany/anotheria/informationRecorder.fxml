@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.anotheria.InformationRecorderController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Numbers of Overs:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="200.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="noOfOvers" prefWidth="100.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="23.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Home Team:">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="homeTeam">
+               <HBox.margin>
+                  <Insets left="10.0" top="2.0" />
+               </HBox.margin>
+            </TextField>
+            <Label text="Away Team:">
+               <HBox.margin>
+                  <Insets left="60.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="awayTeam">
+               <HBox.margin>
+                  <Insets left="15.0" top="2.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="4.0" prefWidth="728.0">
+         <children>
+            <Label text="Enter Playing XI  for team batting first: ">
+               <HBox.margin>
+                  <Insets left="25.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label text="Enter Playing XI  for team bowling first: ">
+               <HBox.margin>
+                  <Insets left="45.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="battingTeamSelection" mnemonicParsing="false" onAction="#switchToBattingSelection" prefHeight="50.0" prefWidth="200.0" text="Click to enter team batting first XI">
+               <HBox.margin>
+                  <Insets left="25.0" top="7.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bowlingTeamSelection" mnemonicParsing="false" onAction="#switchToBowlingSelection" prefHeight="50.0" prefWidth="200.0" text="Click to enter team bowling first XI">
+               <HBox.margin>
+                  <Insets left="155.0" top="7.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" />
+      <Button fx:id="submit" mnemonicParsing="false" onAction="#switchToGameRecorder" prefHeight="40.0" text="Submit">
+         <VBox.margin>
+            <Insets left="650.0" top="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
